@@ -7,9 +7,9 @@ export const DATA = {
   location: "Guntur",
   locationLink: "https://maps.app.goo.gl/NBnfCcmbyvVHYB5z5",
   description:
-    "Web developer turned Entrepreneur. I love building web apps for  people . I make modern web apps as per your requirements.",
+    "Web developer turned social Entrepreneur. I love building web apps for  people . I make modern web apps as per your requirements.",
   summary:
-    "At the end of 2023, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a Bachelors degree in computer science ](/#education), [worked at Start Up tech company Pure Code](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [worked as a freelancer for sometime now](/#hackathons). I also had the pleasure of being a part of the organisation  called  [Janastu ](https://janastu.org). It aims at creating a decentralised internet using Dweb Apps.",
+    "At the end of 2023, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a Bachelors degree in computer science ](/#education), [worked at Start Up tech company Pure Code](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [worked as a freelancer for sometime now](/#hackathons). I also had the pleasure of being a part of the organisation  called  [Janastu ](https://janastu.org). Now i am Founder director of FOSS ANDHRA FOUNDATION that promotes free and open source software",
   avatarUrl: "/hameed.png",
   skills: [
     "React",
@@ -19,6 +19,7 @@ export const DATA = {
     "Git",
     "MUI",
     "MongoDB",
+    "Postgres",
     "Docker",
     "UI/UX",
     "Web scrapping",
@@ -26,7 +27,7 @@ export const DATA = {
   ],
   contact: {
     email: "hameedsk381@gmail.com",
-    tel: "+91 6304752908",
+    tel: "+91 8801260321",
     social: {
       GitHub: {
         url: "https://github.com/hameedsk381",
@@ -45,7 +46,7 @@ export const DATA = {
         icon: Icons.youtube,
       },
       whatsapp:{
-        url: "https://wa.me/6304752908",
+        url: "https://wa.me/8801260321",
         icon: Icons.whatsapp,
       }
     },
@@ -77,7 +78,30 @@ export const DATA = {
         "Built an Web application called Renarration which renarrates the existing content on the web for Technically low literate users. ",
     },
     
-    
+    {
+      company: "Manipal Institute of Higher Education",
+      badges: [],
+      href: "https://www.manipal.edu/mu.html",
+      location: "Bengaluru",
+      title: "Guest lecturer",
+      logoUrl: "https://www.manipal.edu/mu.html",
+      start: "August 2024",
+      end: "September 2024",
+      description:
+        "Undertook a guest lecture on web development to 30 students and trained them to build modern websites as well.",
+    }, 
+    {
+      company: "FOSS ANDHRA FOUNDATION",
+      badges: [],
+      href: "https://fossap.in",
+      location: "Vijaywawada",
+      title: "Founder - Director",
+      logoUrl: "https://fossap.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo1.13479cac.png&w=256&q=75",
+      start: "November",
+      end: "Present",
+      description:
+        "Founded by myself to promote free open source software for education and public welfare.",
+    }
   ],
   education: [
     {
@@ -108,6 +132,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "FOSS ANDHRA FOUNDATION",
+      href: "https://fossap.in",
+      dates: "Jan 2025 - present",
+      active: true,
+      description:
+        "Website for a non-profit aimed at promoting free and open source software",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "MongoDB",
+       'Express Js',
+        "TailwindCSS",
+      'MUI',
+      'Vercel'
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://fossap.in",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/foss.png",
+      video:
+        "",
+    },
+    {
       title: "Christ The King",
       href: "https://www.cksvja.com",
       dates: "Jan 2024 - Feb 2024",
@@ -130,7 +181,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/cks.png",
+      image: "/cksvja.png",
       video:
         "",
     },
@@ -165,7 +216,108 @@ export const DATA = {
       ],
       image: "/renarration.png",
    
-    }
+    },
+    {
+      title: "Uppraisal consultant",
+      href: "https://uppraisal.vercel.app/",
+      dates: "Dec 2024 - Present",
+      active: true,
+      description:
+        "Developed a website to showcase the portfolio of a manpower consultancy based in Bengal.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "MongoDB",
+        "Prisma",
+        "MUI",
+        "Pupeteer",
+        "Git",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://uppraisal.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+     
+      ],
+      image: "/uppraisal.png",
+   
+    },
+    {
+      title: "Yes-J",
+      href: "https://yesj.org/",
+      dates: "August 2024 - Dec 2024",
+      active: true,
+      description:
+        "Developed a website for a non-profit organization that works for youth empowerment to showcase their work.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "MongoDB",
+        "Git",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://yesj.org/",
+          icon: <Icons.globe className="size-3" />,
+        },
+     
+      ],
+      image: "/yesj.png",
+   
+    },
+    {
+      title: "The telugu Christian Store",
+      href: "https://theteluguchristian.in/",
+      dates: "August 2023",
+      active: true,
+      description:
+        "Developed a website for Telugu Christian store which includes books, blogs, and gift products.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "MongoDB",
+        "Git",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://theteluguchristian.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+     
+      ],
+      image: "/ttc.png",
+   
+    },
+    {
+      title: "NRC CAA repository",
+      href: "https://nrc-jet.vercel.app/",
+      dates: "August 2023",
+      active: true,
+      description:
+        "Developed a website to display testimonials for NRC CAA victims and their stories.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "MongoDB",
+        "Git",
+        "Django","Ghost"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nrc-jet.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+     
+      ],
+      image: "/nrc.png",
+   
+    },
+
   ],
   hackathons: [
     {
