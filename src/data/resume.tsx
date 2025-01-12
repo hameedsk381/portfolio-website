@@ -7,9 +7,9 @@ export const DATA = {
   location: "Guntur",
   locationLink: "https://maps.app.goo.gl/NBnfCcmbyvVHYB5z5",
   description:
-    "Web developer turned social Entrepreneur. I love building web apps for  people . I make modern web apps as per your requirements.",
+    "Web developer who loves building projects. I love building web apps for  people . I make modern web apps as per your requirements.",
   summary:
-    "At the end of 2023, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a Bachelors degree in computer science ](/#education), [worked at Start Up tech company Pure Code](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [worked as a freelancer for sometime now](/#hackathons). I also had the pleasure of being a part of the organisation  called  [Janastu ](https://janastu.org). Now i am Founder director of FOSS ANDHRA FOUNDATION that promotes free and open source software",
+    "I am a passionate web developer who love in automation of work. In the past, [I pursued a Bachelors degree in computer science ](/#education), [worked at Start Up tech company Pure Code](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [worked as a freelancer for sometime now](/#hackathons). I also had the pleasure of being a part of the organisation  called  [Janastu ](https://janastu.org). i have also started a initiative of FOSS ANDHRA  that promotes free and open source software and enviornment to discuss latest trends in web development",
   avatarUrl: "/hameed.png",
   skills: [
     "React",
@@ -72,7 +72,7 @@ export const DATA = {
       location: "Remote",
       title: "Software Engineer",
       logoUrl: "https://www.janastu.org/images/entrance.gif",
-      start: "January 2024",
+      start: "Dec 2023",
       end: "April 2024",
       description:
         "Built an Web application called Renarration which renarrates the existing content on the web for Technically low literate users. ",
@@ -90,18 +90,18 @@ export const DATA = {
       description:
         "Undertook a guest lecture on web development to 30 students and trained them to build modern websites as well.",
     }, 
-    {
-      company: "FOSS ANDHRA FOUNDATION",
-      badges: [],
-      href: "https://fossap.in",
-      location: "Vijaywawada",
-      title: "Founder - Director",
-      logoUrl: "https://fossap.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo1.13479cac.png&w=256&q=75",
-      start: "November",
-      end: "Present",
-      description:
-        "Founded by myself to promote free open source software for education and public welfare.",
-    }
+    // {
+    //   company: "FOSS ANDHRA FOUNDATION",
+    //   badges: [],
+    //   href: "https://fossap.in",
+    //   location: "Vijaywawada",
+    //   title: "Founder - Director",
+    //   logoUrl: "https://fossap.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo1.13479cac.png&w=256&q=75",
+    //   start: "November",
+    //   end: "Present",
+    //   description:
+    //     "Founded by myself to promote free open source software for education and public welfare.",
+    // }
   ],
   education: [
     {
